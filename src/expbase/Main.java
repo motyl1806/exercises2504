@@ -16,9 +16,9 @@ public class Main {
         Human marcin = new Human();
         marcin.firstName="Marcin";
         marcin.lastName="Motyl";
-        marcin.setCar(new Car("octavia","skoda"));
+        marcin.myCar = new Car("octavia","skoda");
 
-        Car mustang = new Car();
+        Car mustang = new Car("Mustang","Ford");
         mustang.age=5;
         mustang.engine=280.0;
         mustang.millage=10000.0;
