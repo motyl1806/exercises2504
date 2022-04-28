@@ -1,8 +1,8 @@
 package expbase;
 
 public class Car {
-    String model;
-    String producer;
+    final String model;
+    final String producer;
     Double engine;
     Integer age;
     Double millage;

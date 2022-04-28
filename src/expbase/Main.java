@@ -22,7 +22,7 @@ public class Main {
         mustang.age=5;
         mustang.engine=280.0;
         mustang.millage=10000.0;
-        mustang.model="Mustang";
-        mustang.producer="Ford";
+
+        System.out.println("Marcin samochód to: "+marcin.myCar);
     }
 }
