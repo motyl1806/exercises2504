@@ -16,13 +16,19 @@ public class Main {
         Human marcin = new Human();
         marcin.firstName="Marcin";
         marcin.lastName="Motyl";
-        marcin.myCar = new Car("octavia","skoda");
+        marcin.age=29;
 
-        Car mustang = new Car("Mustang","Ford");
+        /* Car mustang = new Car("Mustang","Ford");
         mustang.age=5;
         mustang.engine=280.0;
-        mustang.millage=10000.0;
+        mustang.millage=10000.0; */
 
-        System.out.println("Marcin samochód to: "+marcin.myCar);
+        marcin.setSalary(10000.0);
+        System.out.println(marcin.getSalary());
+
+        Car Lambo = new Car("Diablo","Lamborghini");
+        Lambo.setValue(1000000.0);
+        System.out.println("Wartosc Lambo to: "+Lambo.getValue());
+        System.out.println(marcin.getCar());
     }
 }
